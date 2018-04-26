@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgrnd"
+    android:layout_height="match_parent"
+    tools:context="com.marble.AboutusFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_margin="20dp"
+        android:text="Something About Us.."
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        />
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/about_title"
+        android:layout_below="@id/title"
+       android:textSize="15dp"
+       android:layout_margin="10dp"
+       android:text="Thank You for Choosing Our Application. Marble is an industrial powerhouse with a  specialization in providing all range of Granite, Indian and Imported Marbles."
+       />
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_title2"
+        android:layout_margin="10dp"
+        android:text="Marble provides a platform for the Manufacturers, Suppliers, Architecture and Contractor to collaborate and work together to provide best services to customer."
+        android:layout_below="@id/about_title"
+        />
+
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_title3"
+        android:layout_margin="10dp"
+        android:text="Also Floorempire provide a calculator To calculate the area of a room in square feet, measure the length and width of the room in feet, then multiply these figures together to give an area in ft²."
+        android:layout_below="@id/about_title2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_vision"
+        android:text="Vision"
+        android:layout_below="@id/about_title3"
+        android:layout_margin="15dp"
+        />
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_title4"
+        android:layout_margin="10dp"
+        android:text="Our Vision is To Provide easy solutions for customers. We will male an user frendly website so that user can easily use and get better solutions."
+        android:layout_below="@id/btn_vision"
+        />
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Development_Purpose"
+            android:layout_margin="10dp"
+            android:text="We will develope this website for user conbiniancy. Our purpose is A new concept in marble industry where manufacturer are members of our group whose mission is to solve problem of stone traders and customers. Customers can easily get calculation of  square foot of tiles and marbles and also check that approx price of marble, and also show latest design for marbles and tiles."
+            android:layout_below="@id/about_title4"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_functionality"
+        android:text="Functionality"
+        android:layout_below="@id/Development_Purpose"
+        android:layout_margin="15dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+       android:layout_below="@id/btn_functionality"
+        android:text="We will provide a much more functions like Calculator, gallery, which willl helpfull to user and convinient. We provide function for easy calcullator.Easy Gallery View. Easy to get details for Dealers and Retailer which will available in market. So that user can easily convinient to get an information for Speacific Dealer and Retailres. And also we provide an general functionality like Feedback, FAQS for User's frequently Ask Questions. Also provide function for Sharing Our App.Basically our app is very User Frendly."
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/thank_you"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_below="@id/detail"
+        android:text="Thank you for choosing our Application and Give us very good Support. We will consider All the customers Suggestions And take An several changes as per User guidence and Feedback. Thank You."
+        android:textSize="15dp" />
+</RelativeLayout>
+</ScrollView>

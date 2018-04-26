@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgrnd"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.marble.DealerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No data found"
+        android:textSize="50sp"
+        android:id="@+id/txt_dealerdata"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recylr2">
+    </android.support.v7.widget.RecyclerView>
+   </RelativeLayout>

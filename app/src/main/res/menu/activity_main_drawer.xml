@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homevector"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/calci"
+            android:title="Calculator" />
+
+        <item
+            android:id="@+id/nav_dealer"
+            android:icon="@drawable/calci"
+            android:title="Dealer" />
+        <item
+            android:id="@+id/nav_retailer"
+            android:icon="@drawable/calci"
+            android:title="Retailer" />
+        <!--<item
+            android:id="@+id/nav_catelog"
+            android:icon="@drawable/calci"
+            android:title="Catelog" />-->
+
+        <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/feedback"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/faq"
+            android:title="FAQs" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Log Out" />
+
+    </group>
+
+
+</menu>

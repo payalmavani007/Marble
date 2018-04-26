@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Marble</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Toast Messages-->
+    <string name="toast_no_internet">No Internet connection available</string>
+    <string name="toast_no_name">User name is required</string>
+    <string name="toast_no_firstname">First name is required</string>
+    <string name="toast_no_valid_firstname">Please enter valid first name</string>
+    <string name="toast_no_lastname">Last name is required</string>
+    <string name="toast_no_valid_lastname">Please enter valid last name</string>
+    <string name="toast_first_name_length_not_valid">Firstname/Lastname must be in length of min 2 and max 20 characters</string>
+    <string name="toast_no_email">Email is required</string>
+    <string name="toast_no_contact">Contact is required</string>
+    <string name="toast_no_password">Password is required</string>
+    <string name="toast_no_valid_password">Password is not valid</string>
+    <string name="toast_no_confirm_password">Confirm password is required</string>
+    <string name="toast_no_valid_confirm_password">Confirm password is not valid</string>
+    <string name="toast_no_new_password">New password is required</string>
+    <string name="toast_contact_wrong">Contact is invalid</string>
+    <string name="toast_email_format_wrong">Email is invalid</string>
+    <string name="toast_password_mismatch">Password is not matched</string>
+    <string name="toast_password_same">Old password and New Password should not be same</string>
+    <string name="toast_password_length_invalid">Password must be in length of min 8 and max 15 characters</string>
+    <string name="toast_new_password_length_invalid">Password must be in length of min 8 and max 15 characters</string>
+    <string name="toast_confirm_password_length_invalid">Confirm password must be in length of min 8 and max 15 characters</string>
+    <string name="toast_no_valid_new_password">New password is not valid</string>
+
+
+    =====================permission==============
+    <string name="permission_never_asked">Permission Never Asked</string>
+    <string name="go_to_setting">Go To Setting</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="Shape">
+        <item> Square</item>
+        <item> Rectangle</item>
+
+    </string-array>
+    <string-array name="Feet">
+        <item>1*1</item>
+        <item>1.5*1.5</item>
+        <item>2*2</item>
+        <item>3*3</item>
+    </string-array>
+    <string-array name="Questios">
+        <item>can i purchase online marble or not?</item>
+        <item>can you give the detail of dealer?</item>
+        <item>can you give the detail of manufrecturer?</item>
+        <item>can you give the detail of retailer?</item>
+        <item>can you give the detail of tredres?</item>
+        <item>can i shop it online or not?</item>
+        <item>Can i calculate data easily?</item>
+    </string-array>
+    <string-array name="Currency">
+        <item>Rs.(INR)</item>
+        <item>$(dollor)</item>
+        <item>£(pound)</item>
+        <item>€(euro)</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
